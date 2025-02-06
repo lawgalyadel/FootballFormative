@@ -96,7 +96,6 @@ select {
 
 .LeagueSection {
     text-align: center;
-    margin-top: 50px;
 }
 
 h3 {
@@ -224,5 +223,18 @@ h6 {
         height: 50px;
         gap: 0%;
         overflow: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .LeagueForm {
+        margin-top: 90px;
+    }
+
+    .headers {
+        margin-top: 30px;
     }
 }
